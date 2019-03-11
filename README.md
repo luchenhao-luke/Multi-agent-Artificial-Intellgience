@@ -1,2 +1,5 @@
 # Multi-agent-Artificial-Intellgience
 UCL Multi-agent Artificial Intellgience Coursework 2019
+Team members: Wen Yang, Haoxuan Wang and Chenhao Lu
+
+In this project we tested the performance of different bidding strategies for online Real-Time Bidding (RTB) based on a part of the iPinYou dataset. We firstly reviewed existing researches on RTB strategies and the dataset, and did our own exploratory data analysis, based on which we developed 3 machine learning (ML) models, using respectively Logistic Regression (LR), Gradient Boosting Regression Tree (GBRT) and multi-layer perceptron neural network (MLP), to predict the probability of an impression to be clicked, i.e., Click-Through-Rate (CTR) Prediction. After that, we compared Constant, Random and Linear strategies, and 3 nonlinear strategies including the Quadratic strategy, Optimal RTB (ORTB) strategy, and the Bidding Machine, on maximizing the total number of clicks received given a limited budget. and found out the combination of GBRT with Quadratic strategy performed best against the original pay prices in both the validation and test splits of the dataset.
